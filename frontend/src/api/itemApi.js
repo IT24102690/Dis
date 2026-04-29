@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://dis-production-cdb1.up.railway.app/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://dis-5g2v.onrender.com/api",
 });
 
 export const getItems = () => API.get("/items");
